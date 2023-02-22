@@ -5,9 +5,4 @@ public class Teste {
         System.out.println("Hello World!");
     }
 
-
-    /*vfdvdff*/
-
-
-
 }
