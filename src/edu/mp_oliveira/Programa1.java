@@ -1,6 +1,6 @@
-package mp_oliveira;
+package edu.mp_oliveira;
 
-import mp_oliveira.Models.Gato;
+import edu.mp_oliveira.Models.Gato;
 
 public class Programa1 {
 

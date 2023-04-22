@@ -1,9 +1,10 @@
-package mp_oliveira.funcoes;
+package edu.mp_oliveira.funcoes;
 
 import java.util.Scanner;
 
 public class Cauculadora {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         int x, y;
         System.out.println("Digite o primeiro valor: ");
@@ -21,16 +22,20 @@ public class Cauculadora {
         System.out.println("Multiplicação = " + multiplicar);
         System.out.println("Divisão = " + dividir);
     }
-    public static int somar(int x, int y){
+
+    public static int somar(int x, int y) {
         return x + y;
     }
-    public static int subtrair(int x, int y){
+
+    public static int subtrair(int x, int y) {
         return x - y;
     }
-    public static int multiplicar(int x, int y){
+
+    public static int multiplicar(int x, int y) {
         return x * y;
     }
-    public static float dividir(int x, int y){
+
+    public static float dividir(int x, int y) {
         return x / y;
     }
 }

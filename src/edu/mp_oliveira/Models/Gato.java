@@ -1,4 +1,4 @@
-package mp_oliveira.Models;
+package edu.mp_oliveira.Models;
 
 import java.util.Objects;
 
