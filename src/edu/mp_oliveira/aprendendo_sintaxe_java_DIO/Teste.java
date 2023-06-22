@@ -6,7 +6,7 @@ public class Teste {
         String segundoNome = "Rodrigues de Oliveira";
         String nomeCompleto = nomeCompleto(primeiro_nome,segundoNome);
         //Variável
-        int anodefabricacao = 2023;
+        //int anodefabricacao = 2023;
         //printa "Hello World
         System.out.println("Hello World!");
         System.out.println(nomeCompleto);
