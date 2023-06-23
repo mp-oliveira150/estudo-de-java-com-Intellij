@@ -1,6 +1,6 @@
 package edu.mp_oliveira.aprendendo_sintaxe_java_DIO;
 
-public class Teste {
+public class ConcatenacaoDeString {
     public static void main(String[] args) {
         String primeiro_nome = "Marcos Paulo";
         String segundoNome = "Rodrigues de Oliveira";
