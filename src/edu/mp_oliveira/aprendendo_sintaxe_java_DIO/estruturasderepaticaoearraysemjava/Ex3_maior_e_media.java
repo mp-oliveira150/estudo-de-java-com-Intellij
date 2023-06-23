@@ -4,48 +4,23 @@ import java.util.Scanner;
 
 public class Ex3_maior_e_media {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
-        Scanner ler = new Scanner(System.in);
-
-        int n = 5; // tamanho do vetor
-        int[] v = new int[n]; // declaração do vetor "v"
-        int i; // índice ou posição
-
-// Entrada de Dados
-        for (i=0; i<n; i++) {
-                System.out.printf("\nInforme %2dº valor de %d: ", (i+1), n);
-                v[i] = ler.nextInt();
-            }
-
-
-// Processamento: somar todos os valores, definir o maior e o menor valor
+        int numero = 0;
+        int maior = 0;
         int soma = 0;
-        int menor = v[0]; // v[0] = 1o. valor armazenador no vetor "v"
-        int maior = v[0];
-        float media1 = 0.0f;
-            for (i=0; i<n; i++) {
-            soma = soma + v[i];
+        int count = 0;
+        do {
+            System.out.println("Digite um número: ");
+            numero = scan.nextInt();
+            if (numero > maior) maior = numero;
+            soma = soma + numero;
+            count++;
+        }while (count < 5);
+        float media = (float) soma/count;
+        System.out.printf("A soma dos números é: %s \n" , soma);
+        System.out.printf("O maior número é: %s \n" , maior);
+        System.out.printf("A média dos 5 números é: %.3f", media);
 
-            media1 = (float) soma / (float) n;
-
-            if (v[i] < menor)
-                menor = v[i];
-
-            if (v[i] > maior)
-                maior = v[i];
-            }
-
-// Saída (resultados)
-        System.out.print("\n");
-        for (i=0; i<n; i++) {
-            if (v[i] == menor)
-                System.out.printf("v[%d] = %2d <--- menor valor\n", i, v[i]);
-            else if (v[i] == maior)
-                System.out.printf("v[%d] = %2d <--- maior valor\n", i, v[i]);
-            else System.out.printf("v[%d] = %2d\n", i, v[i]);
-        }
-
-        System.out.printf("\nSoma = %d\n", soma);
-        System.out.printf("\nMédia = %.1f\n", media1);
-        }
+    }
 }
