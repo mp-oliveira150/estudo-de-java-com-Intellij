@@ -1,4 +1,4 @@
-package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.estruturasderepaticaoearraysemjava;
+package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.estruturas_de_repaticao;
 
 import java.util.Scanner;
 

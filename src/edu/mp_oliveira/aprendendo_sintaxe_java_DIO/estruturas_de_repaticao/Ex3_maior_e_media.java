@@ -1,4 +1,4 @@
-package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.estruturasderepaticaoearraysemjava;
+package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.estruturas_de_repaticao;
 
 import java.util.Scanner;
 
@@ -11,15 +11,15 @@ public class Ex3_maior_e_media {
         int soma = 0;
         int count = 0;
         do {
-            System.out.println("Digite um número: ");
+            System.out.println("\nDigite um número: ");
             numero = scan.nextInt();
             if (numero > maior) maior = numero;
             soma = soma + numero;
             count++;
         }while (count < 5);
         float media = (float) soma/count;
-        System.out.printf("A soma dos números é: %s \n" , soma);
-        System.out.printf("O maior número é: %s \n" , maior);
+        System.out.printf("A soma dos números é: %d \n" , soma);
+        System.out.printf("O maior número é: %d \n" , maior);
         System.out.printf("A média dos 5 números é: %.3f", media);
 
     }

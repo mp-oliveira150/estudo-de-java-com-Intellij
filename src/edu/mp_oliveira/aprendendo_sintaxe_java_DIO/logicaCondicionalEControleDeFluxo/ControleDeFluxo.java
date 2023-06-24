@@ -37,30 +37,24 @@ public class ControleDeFluxo {
             System.out.println("Dezembro");
         }else System.out.println("Mês inesistente");
 
+        switch (mes) {
+            case 1, 2, 3 -> System.out.println("É férias");
+        }
+
         String semana;
         System.out.println("Digite o dia da semana.");
         semana = scanner.next();
-        int semana2 = 0;
-        String mensagemdeerro = "";
-        switch (semana) {
-            case "segunda": semana2 = 1;
-                    break;
-            case "terca": semana2 = 2;
-                    break;
-            case "quarta": semana2 = 3;
-                    break;
-            case "quinta": semana2 = 4;
-                    break;
-            case "sexta": semana2 = 5;
-                    break;
-            case "sabado": semana2 = 6;
-                    break;
-            case "domingo": semana2 = 7;
-            break;
-            default: semana2 = 0;
-                    break;
-            }
-            if (semana2 != 0) {
+        int semana2 = switch (semana) {
+            case "segunda" -> 1;
+            case "terca" -> 2;
+            case "quarta" -> 3;
+            case "quinta" -> 4;
+            case "sexta" -> 5;
+            case "sabado" -> 6;
+            case "domingo" -> 7;
+            default -> 0;
+        };
+        if (semana2 != 0) {
                 System.out.println((semana) + " É o " + (semana2) + "º dia da semana.");
             }else System.out.println("Dia da semana inválido");
 
@@ -68,17 +62,13 @@ public class ControleDeFluxo {
         int numero;
         System.out.println("Digite um número de 1 a 5.");
         numero = scanner.nextInt();
-        String resposta = "";
-        switch (numero){
-        case 1,2,3: resposta = "Certo";
-        break;
-        case 4: resposta = "Errado";
-        break;
-        case 5: resposta = "Talvez";
-        break;
-        default: resposta = "Valor indefinido";
-        break;
-        }
+        String resposta = switch (numero) {
+            case 1, 2, 3 -> "Certo";
+            case 4 -> "Errado";
+            case 5 -> "Talvez";
+            default -> "Valor indefinido";
+        };
+
         System.out.print(resposta);
 
     }
