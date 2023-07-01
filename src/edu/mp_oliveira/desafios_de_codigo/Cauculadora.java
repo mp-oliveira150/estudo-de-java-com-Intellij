@@ -1,4 +1,4 @@
-package edu.mp_oliveira.funcoes;
+package edu.mp_oliveira.desafios_de_codigo;
 
 import java.util.Scanner;
 

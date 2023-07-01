@@ -1,4 +1,4 @@
-package edu.mp_oliveira.aprendendo_sintaxe_java_DIO;
+package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.manipulacao_de_string;
 
 public class ConcatenacaoDeString {
     public static void main(String[] args) {

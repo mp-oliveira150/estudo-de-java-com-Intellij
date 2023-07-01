@@ -1,4 +1,4 @@
-package edu.mp_oliveira.Models;
+package edu.mp_oliveira.orientacao_a_objetos;
 
 import java.util.Objects;
 

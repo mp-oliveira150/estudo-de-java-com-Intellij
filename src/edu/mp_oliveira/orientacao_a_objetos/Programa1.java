@@ -1,6 +1,4 @@
-package edu.mp_oliveira;
-
-import edu.mp_oliveira.Models.Gato;
+package edu.mp_oliveira.orientacao_a_objetos;
 
 public class Programa1 {
 

@@ -8,19 +8,16 @@ public class Ex1_OrdemInversa {
 
         System.out.println("Digite o tamanho do vetor: ");
         int n = scan.nextInt();
-        int count = n;
 
         int[] vetor = new int[n];
 
-        for (int i = 0; i < n ; i += 1 ){
+        for (int i = 0; i < n ; i ++ ){
             System.out.println("Numro a ser armazenado no vetor: ");
             vetor[i] = scan.nextInt();
         }
-        for (int i = vetor.length; i > 0; i --) {
+        for (int i = vetor.length -1; i >= 0; i --) {
 
-            count = count - 1;
-
-            System.out.printf("Vetor Invertido: %d |", vetor[count]);
+            System.out.printf("Vetor Invertido: %d \n", vetor[i]);
         }
     }
 }
