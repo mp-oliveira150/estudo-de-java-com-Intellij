@@ -11,7 +11,7 @@ public class Ex2_Consoantes {
         int count = 0;
 
         do {
-            System.out.print("Digite uma letra: \n");
+            System.out.print("Digite uma letra e aperte o botão enter: \n");
             String letra = scan.next();
             if (    !(letra.equalsIgnoreCase("a")|
                      letra.equalsIgnoreCase("e")|
