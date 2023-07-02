@@ -1,8 +1,8 @@
-package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.estruturas_de_repeticao;
+package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.estrutura_de_repeticao_e_arrays_em_java.estruturas_de_repeticao;
 
 import java.util.Scanner;
 
-public class Ex_1_NomeEIdade {
+public class Ex_1_Nome_E_Idade {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String nome = "";

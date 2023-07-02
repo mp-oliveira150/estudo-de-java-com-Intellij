@@ -1,4 +1,4 @@
-package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.arrays_em_java;
+package edu.mp_oliveira.aprendendo_sintaxe_java_DIO.estrutura_de_repeticao_e_arrays_em_java.arrays_em_java;
 
 import java.util.Scanner;
 
