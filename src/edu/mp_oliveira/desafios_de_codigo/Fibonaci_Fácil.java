@@ -13,8 +13,8 @@ public class Fibonaci_Fácil {
                 //TODO: Implemente a condição ideal para que possamos obter os valores solicitados:
             else System.out.print(anterior + " ");
             proximo = anterior + atual;
-            anterior = ;
-            atual =  ;
+            anterior = 0;
+            atual =  0;
         }
     }
 }
