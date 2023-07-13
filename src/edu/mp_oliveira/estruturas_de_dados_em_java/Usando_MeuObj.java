@@ -7,11 +7,11 @@ public class Usando_MeuObj {
         //O tipo primitivo copia o valor do outro tipo primitivo para um seundo lugar na memória.
 
         int primitivo1 = 2;
-        int primitivo2 =primitivo1;
+        int primitivo2 = primitivo1;
 
         System.out.println("Primitivo1 = " + primitivo1 + " | " + "Primitivo2 = " + primitivo2 + "\n");
         primitivo1 = 5; //Altera apenas o primitivo1, pois está em um endereço de memória diferente do primitivo2;
-        System.out.println("Primitivo1 = " + primitivo1 + " | " + "Primitivo 2 = " + primitivo2 +"\n");
+        System.out.println("Primitivo1 = " + primitivo1 + " | " + "Primitivo2 = " + primitivo2 +"\n");
 
 
         //Usando a classe MeuObj:
@@ -25,7 +25,7 @@ public class Usando_MeuObj {
 
         System.out.println("objA = " + objA + " | " + "objB = " + objB + "\n");
         objA.setNum(5); //Também altera o objB, pois está no mesmo endereço de memória que o objA;
-        System.out.println("objA = " + objA + " | " + "objB 2 = " + objB +"\n");
+        System.out.println("objA = " + objA + " | " + "objB = " + objB +"\n");
 
     }
 }

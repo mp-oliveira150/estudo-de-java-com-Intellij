@@ -1,4 +1,4 @@
-package edu.mp_oliveira.estruturas_de_dados_em_java;
+package edu.mp_oliveira.estruturas_de_dados_em_java.no_simples;
 
 public class Projeto_No {
 
